@@ -1,53 +1,10 @@
-<head>
-    <meta charset="UTF-8">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <url>
+        <loc>https://dco-security-services.netlify.app/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
 
-    <!-- Primary SEO -->
-    <title>DCO Security Services</title>
-
-    <meta name="description" content="DCO Security Services provides cybersecurity solutions including malware analysis, digital forensics, cybersecurity training, and security services for businesses and individuals.">
-
-    <meta name="author" content="DCO Security Services">
-
-    <meta name="robots" content="index, follow">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://dco-security-services.netlify.app/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-
-    <meta property="og:title" content="DCO Security Services">
-
-    <meta property="og:description" content="Cybersecurity services including malware analysis, digital forensics, and cybersecurity training.">
-
-    <meta property="og:url" content="https://dco-security-services.netlify.app/">
-
-    <meta property="og:site_name" content="DCO Security Services">
-
-    <!-- Twitter / X -->
-    <meta name="twitter:card" content="summary">
-
-    <meta name="twitter:title" content="DCO Security Services">
-
-    <meta name="twitter:description" content="Cybersecurity services including malware analysis, digital forensics, and cybersecurity training.">
-
-    <!-- Structured Data for Google -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "DCO Security Services",
-        "url": "https://dco-security-services.netlify.app/",
-        "description": "DCO Security Services provides cybersecurity services including malware analysis, digital forensics, and cybersecurity training.",
-        "knowsAbout": [
-            "Cybersecurity",
-            "Malware Analysis",
-            "Digital Forensics",
-            "Cybersecurity Training"
-        ]
-    }
-    </script>
-
-</head>
+</urlset>
