@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dco-security-services.netlify.app/sitemap.xml
+Sitemap: https://dco-cyber-solutions.netlify.app/sitemap.xml
