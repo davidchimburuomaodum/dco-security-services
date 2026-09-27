@@ -292,3 +292,31 @@ footer p {
         font-size: 14px;
     }
 }
+/* 3D EFFECT */
+
+.service-card {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    will-change: transform;
+}
+
+.service-card:hover {
+    transform: perspective(1000px) rotateX(3deg) rotateY(-3deg) translateY(-8px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h2,
+.service-card h3,
+.service-card p,
+.service-card .btn {
+    transform: translateZ(15px);
+}
+
+/* Mobile touch effect */
+@media (max-width: 800px) {
+    .service-card:active {
+        transform: scale(0.98) translateY(-4px);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+    }
+}
