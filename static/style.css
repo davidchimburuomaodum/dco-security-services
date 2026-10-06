@@ -320,3 +320,13 @@ footer p {
         box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
     }
 }
+.ad-container {
+  width: 160px;
+  min-height: 300px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: transparent;
+  overflow: hidden;
+}
