@@ -1627,3 +1627,16 @@ button:focus-visible {
         padding: 23px;
     }
 }
+
+
+/* WhatsApp contact form */
+.contact-form-section .container { max-width: 900px; }
+.contact-form { display:flex; flex-direction:column; gap:20px; padding:30px; background:var(--surface,#0d1b2e); border:1px solid rgba(56,189,248,.2); border-radius:18px; }
+.form-row { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+.form-group { display:flex; flex-direction:column; gap:9px; }
+.form-group label { color:#dce8f5; font-weight:600; }
+.form-group input, .form-group select, .form-group textarea { width:100%; padding:14px 15px; color:#f1f5f9; background:#07111f; border:1px solid #29415c; border-radius:9px; font:inherit; }
+.form-group textarea { resize:vertical; }
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline:2px solid #38bdf8; border-color:#38bdf8; }
+.form-hint { color:#a8b8ca; font-size:.9rem; }
+@media(max-width:650px) { .form-row { grid-template-columns:1fr; } .contact-form { padding:20px; } }
